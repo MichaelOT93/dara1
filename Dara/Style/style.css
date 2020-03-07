@@ -1,0 +1,718 @@
+body {
+	margin: auto 0;
+}
+
+.wrapper {
+    width: 100%;
+	padding-top: 100px;
+	
+}
+
+.header {
+	height: 80vh;
+	width: 100%;
+	
+}
+
+.header h1 {
+	margin: auto;
+    position: relative;
+    left: 10%;
+    top: 300px;
+    font-family: 'Nunito';
+    width: 50%;
+}
+
+#look {
+	margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    left: 48%;
+    top: 350px;
+    z-index: -1;
+}
+	
+
+/*.header video {
+	max-height: 100%;
+	min-width: 100%;
+	position: static;
+	right: 0;
+	bottom: 0;
+	
+}*/
+
+
+
+.navBar {
+	margin-bottom: 10px;
+	height: 8vh;
+	width: 100%;
+	background-color: white;
+	overflow: hidden;
+	padding: 40px 0px;
+	transition: 0.8s;
+	float: left;
+	opacity: 100%;
+	clear: both;
+	position: static;
+	
+
+	
+}
+
+
+.navBar h2 {
+	position: relative;
+	top: 25px;
+	margin: 0 auto;
+	left: 50%;
+	color: black;
+    font-family: 'Nunito';
+	width: 8vw;
+	float: left;
+	text-align: center;
+}
+
+.navBar h2 > a{
+	position: relative;
+	color: black;
+	text-decoration: none;
+	
+}
+
+.hoverPurple {
+	display: inline-block;
+	position: relative;
+}
+
+.hoverPurple::before {
+	content: '';
+	position: absolute;
+	width: 60%;
+	transform: scaleX(0);
+	height: 5px;
+	bottom: 0;
+	left: 25px;
+	background-color: #03A9F4; /*blue*/
+	transform-origin: bottom left;
+	transition: 0.5s ease-out;
+	
+}
+
+.hoverPurple:hover::before {
+	transform: scaleX(1);
+	transform-origin: bottom right;
+	background-color: #AF7AC5; /* purple*/
+}
+
+.hoverGreen {
+	display: inline-block;
+	position: relative;
+}
+
+.hoverGreen::before {
+	content: '';
+	position: absolute;
+	width: 60%;
+	transform: scaleX(0);
+	height: 5px;
+	bottom: 0;
+	left: 25px;
+	background-color: #AF7AC5;
+	transform-origin: bottom left;
+	transition: 0.5s ease-out;
+
+}
+
+.hoverGreen:hover::before {
+	transform: scaleX(1);
+	transform-origin: bottom right;
+	background-color: #1ABC9C; /*green*/
+}
+
+.hoverYellow {
+	display: inline-block;
+	position: relative;
+}
+
+.hoverYellow::before {
+	content: '';
+	position: absolute;
+	width: 60%;
+	transform: scaleX(0);
+	height: 5px;
+	bottom: 0;
+	left: 25px;
+	background-color: #1ABC9C;
+	transform-origin: bottom left;
+	transition: 0.5s ease-out;
+
+}
+
+.hoverYellow:hover::before {
+	transform: scaleX(1);
+	transform-origin: bottom right;
+	background-color: #F9E79F;
+}
+
+
+.hoverBlue {
+	display: inline-block;
+	position: relative;
+}
+
+.hoverBlue::before {
+	content: '';
+	position: absolute;
+	width: 70%;
+	transform: scaleX(0);
+	height: 5px;
+	bottom: 0;
+	left: 20px;
+	background-color: #F9E79F;
+	transform-origin: bottom left;
+	transition: 0.5s ease-out;
+
+}
+
+.hoverBlue:hover::before {
+	transform: scaleX(1);
+	transform-origin: bottom right;
+	background-color: #03A9F4;
+}
+
+
+.navBar a.insta {
+    position: relative;
+    left: 20%;
+    top: 15px;
+    width: 3%;
+    height: 50px;
+	color: black;
+	transition: 0.3s;
+}
+
+.navBar a.insta:hover {
+	color: #8E44AD
+}
+#head {
+	height: 80vh;
+	background-image: url('../Images/graf4.jpg');
+	width: 100%;
+	background-size: cover;
+}
+.sticky {
+	position: fixed;
+	width: 100%;
+	padding: 0px 0px;
+	top: 0;
+	z-index: 10;
+	opacity: 80%;
+}
+
+
+
+
+/*.navBar a:hover {
+	background-color: #424949;
+	color: white;
+}*/
+
+.navBar a.icon {
+	display: none;
+	margin: 0 auto;
+}
+
+
+	
+	
+	
+
+.navBar img {
+	float: left;
+	height: 95%;
+	margin: 0;
+	position: relative;
+    left: 2%;
+    top: 4px;
+}
+
+.fab {
+	font-size: 30px;
+	float: left;
+	position: relative;
+	left: 20%;
+	top: 10px;
+}
+
+
+
+
+.bigContainer {
+	float: left;
+	clear: both;
+	height: 530px;
+}
+
+.midSection{
+	width: 100%;
+	height: 50vh;
+}
+
+.bioContainer {
+	
+	height: 50vh;
+	width: 50%;
+	float: left;
+	clear: both;
+	
+	
+}
+
+.bioContainer h2 {
+	font-family:'Nunito';
+	margin: 0;
+	position: relative;
+	text-align: center;
+	top: 50px;
+	float: left;
+	display: inline;
+	left: 35%;
+	top: 130px;
+	
+}
+
+.bioOverlay {
+	height: 100%;
+	width: 100%;
+	background-color: #ABEBC6;
+	transition: 0.5s ease-in-out;
+	opacity: 10%;
+}
+	
+
+.bio { 
+	
+	background-image: url("../Images/graf1.jpg");
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	
+}
+
+.bioContainer:hover .bioOverlay { 
+	opacity: 90%;
+}
+
+.bioContainer:hover .h2 {
+	opacity: 0%;
+}
+
+
+
+.smallPanel {
+    float: left;
+    width: 40%;
+    height: 30vh;
+}
+
+
+
+	
+.rectangle {
+	float: left;
+	width: 60%;
+	height: 30vh;
+}
+
+.topRect {
+	float: left;
+	height: 50%;
+	width: 100%;
+	background-image: url('../Images/graf4.jpg');
+	background-size: cover;
+}
+
+.bottomRect {
+	float: left;
+    height: 50%;
+    width: 100%;
+	background-image: url('../Images/graf5.jpg');
+	background-size: cover;
+} 
+
+.sideContainer {
+	float: left;
+	display: inline;
+	width: 50%;
+	height: 50vh;
+}
+
+.overlay {
+		width: 100%;
+		height: 100%;
+		opacity: 10%;
+		transition: 0.5s ease-in-out;
+		background-color: #ABEBC6;
+}
+
+.side {
+	width: 100%;
+	background-image: url('../Images/graf3.jpg');
+	background-size: cover;
+	height: 100%;
+
+}
+.sideContainer h2 {
+	
+	font-family:'Nunito';
+	margin: 0;
+	position: relative;
+	text-align: center;
+	top: 50px;
+	float: left;
+	display: inline;
+	left: 35%;
+	top: 130px;
+	
+	
+}
+	
+.sideContainer:hover .overlay {
+	
+	opacity: 90%;
+	
+	
+}
+
+.sideContainer:hover .h2 {
+	opacity: 0%;
+}
+.conForm {
+	clear: both;
+}
+
+.conForm form {
+	float: left;
+	margin: 0 auto;
+	width: 37.5%;
+	clear: both;
+	background-color: #AF7AC5;
+	opacity: 95%;
+	padding: 30px;
+	position: relative;
+	left: 30%;
+	font-family: 'Nunito';
+	font-size: 20px;
+	color: white;
+	height: 510px;
+	top: 130px;
+	
+	
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #F9E79F;
+  color: black;
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  position: relative;
+  left: 20%;
+  font-size: 20px;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #FBFCFC;
+  color: black;
+}
+
+
+
+.largeImage {
+	width: 100%;
+	background-image: url('../Images/graf2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 840px;
+	float: left;
+	clear: both;
+}
+
+
+#contactButton h2 {
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	margin: 0 auto;
+    position: relative;
+    left: 10%;
+    top: 410px;
+    background-color: #AF7AC5;
+    font-family: 'Nunito';
+	border: none;
+	width: 10%;
+	transition: 0.4s;
+}
+
+a#contactButton{
+	text-decoration: none;
+}
+
+#contactButton :hover{
+	background-color:  #F9E79F;
+	color: black;
+}
+
+.shopContainer {
+	float: left;
+	display: inline;
+	width: 50%;
+	height: 60vh;
+	clear: both;
+	transition: 1s;
+}
+
+.shopContainer {
+	float: left;
+	display: inline;
+	width: 50%;
+	height: 60vh;
+	clear: both;
+	background-color: #1ABC9C;
+	transition: 1s;
+}
+
+.shopContainer h2 {
+	font-family:'Nunito';
+	color: white;
+	margin: 0 auto;
+    position: relative;
+    left: 50%;
+    top: 20px;
+	width: 20%;
+}
+
+
+.jamContainer {
+	float: right;
+	display: inline;
+	width: 50%;
+	height: 60vh;
+	background-color: #8E44AD;
+	transition: 1s;
+}
+
+	
+
+.jamContainer h2 {
+	font-family:'Nunito';
+	color: white;
+	margin: 0 auto;
+    width: 10%;
+    position: relative;
+    right: 35%;
+    top: 20px;
+}
+	
+
+
+
+.footer {
+	height: 16vh;
+	width: 100%;
+	background-color: #030303;
+	float: left;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.footer img {
+	position: relative;
+    left: 80%;
+    bottom: 20px;
+    opacity: 50%;
+	height: 30%;
+}
+
+.footer p {
+	color: grey;
+	position: relative;
+	left: 85%;
+	top: 10px;
+	font-size: 12px;
+	margin: 0;
+	
+}
+
+.footer h3 {
+	font-family: 'Nunito';
+	color: white;
+	position: relative;
+	left: 47%;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .bioContainer, .box, .logobox, .navBar, .conForm, .shopContainer, .jamContainer, .footer { 
+		float: left;
+		width: 100%;}
+		
+	.bioContainer h2 {
+		position: relative;
+		left: 40%;
+	}
+	
+	.sideContainer{
+		float: right;
+		width: 100%;
+	}
+	
+	.conForm form{
+		position: relative;
+		left: 8%;
+		width: 80%;
+	}
+	
+	.sideContainer h2 {
+		position: relative;
+		left: 40%;
+	}
+	
+	.footer img {
+		position: relative;
+		left: 35%;
+		size: 20%;
+		top: 10px;
+}
+	.footer h3 {
+		position: relative;
+		left: 40%;
+		
+	}
+	
+	.shopContainer h2 {
+		position: relative;
+		left: -30%;
+	}
+	
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 600px) {
+    .bioContainer, .box, .logobox, .navBar, .conForm, .shopContainer, .jamContainer, .footer { 
+		float: left;
+		width: 100%;}
+		
+	.bioContainer h2 {
+		position: relative;
+		left: 40%;
+	}
+		
+	#contactButton h2 {
+		width: 30%;
+		margin: 0 auto;
+	}
+	
+	.sideContainer{
+		float: right;
+		width: 100%;
+	}
+	
+	.conForm form{
+		position: relative;
+		left: 8%;
+		width: 80%;
+	}
+	
+	.sideContainer h2 {
+		position: relative;
+		left: 40%;
+	}
+	
+	.footer img {
+		position: relative;
+		left: 35%;
+		size: 20%;
+		top: 10px;
+}
+	.footer h3 {
+		position: relative;
+		left: 40%;
+		
+	}
+	
+	.shopContainer h2 {
+		position: relative;
+		left: -30%;
+	}
+	
+}
+	
+	@media screen and (max-width: 600px){ 
+	.navBar a
+	{display: none;}
+	
+	.navBar img {
+		position: relative;
+		left: 10%;
+	}
+	
+	.navBar a.icon {
+    position: absolute;
+    left: 100%;
+    display: block;
+    top: 15px;
+	left: 90%;
+	width: 3%
+	}
+	
+	
+	.navBar a.insta {
+		display: none;
+	}
+
+	}
+
+	/*@media screen and (max-width: 600px; {
+	.navBar.responsive {position: relative;}
+	.navBar.responsive a.icon {
+    position: relative;
+    right: 10%;
+    top: 10px;
+	}
+	*/
+  .navBar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+	
+
+
+    
+
+
+
+
+
